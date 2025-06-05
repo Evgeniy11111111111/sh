@@ -1,0 +1,23 @@
+.sample {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.sample::-webkit-scrollbar {
+  display: none;
+}
+
+.sample::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  height: 0;
+  width: 0;
+  display: none;
+}
+
+.sampleItem {
+  padding: 2px;
+  border: 2px solid transparent;
+}
+
+.sampleItem.active {
+  border-color: var(--ct-primary);
+}

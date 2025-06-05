@@ -1,0 +1,1 @@
+export const URLShikana = "https://schikana.midow.ru";

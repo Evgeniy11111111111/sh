@@ -1,0 +1,26 @@
+.fc .fc-timegrid-slot {
+  height: 60px;
+}
+
+.fc-v-event {
+  border-color: transparent;
+}
+
+.tooltip.custom-tooltip {
+  display: none;
+
+  &.show {
+    display: block;
+  }
+}
+
+#tooltip-root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bowling-row {
+  height: 50px;
+}
